@@ -3,7 +3,7 @@
     color: white;
 }
 .header{
-    background: url(img/header_back.png);
+    background: url(../img/header_back.png);
     object-fit: cover;
     background-size: cover;
     width: 100%;
@@ -127,4 +127,5 @@
 }
 .footer__bottom-icons{
     display: flex;
+
 }
