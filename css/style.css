@@ -1,0 +1,130 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.header{
+    background: url(img/header_back.png);
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    width: 123px;
+    height: 123px;
+}
+.header__box-img{
+    width: 100%;
+    height: 100%;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.header__list-item{
+    padding: 12px 12px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 100px;
+    transition: background 0.3s;
+}
+.header__list-item:last-child{
+    margin-right: 0px;
+}
+.header__list-item:hover{
+    border-radius: 100px;
+    background: rgba(17, 17, 17, 0.432);
+    transition: background 0.3s;
+}
+.header__main{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__main-title{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.header__main-subtitle{
+    text-align: center;
+    margin-bottom: 45px;
+    width: 90%;
+}
+.header__main-button{
+    font-size: 20px;
+    border-radius: 100px;
+    width: 300px;
+    padding: 10px 0;
+    background-color: orange;
+}
+.footer{
+    background: #353535;
+    padding: 70px;
+}
+.footer__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    height: 69px;
+}
+.footer__top-text{
+
+}
+.footer__top-title{
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+.footer__top-subtitle{
+
+}
+.footer__top-form{
+    height: 100%;
+}
+.footer__top-input{
+    background: #353535;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    height: 100%;
+    width: 250px;
+    padding-left: 10px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.footer__top-input::placeholder{
+    color: #fff;
+}
+.footer__top-button{
+    font-size: 16px;
+    color: black;
+    border-radius: 15px;
+    background: orange;
+    height: 100%;
+    text-align: center;
+    padding: 0 40px;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__bottom-col{
+
+}
+.footer__bottom-title{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.footer__bottom-item{
+    margin-bottom: 18px;
+}
+.footer__bottom-icons{
+    display: flex;
+}
